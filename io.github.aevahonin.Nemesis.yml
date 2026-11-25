@@ -1,12 +1,9 @@
 app-id: io.github.aevahonin.Nemesis
-
 runtime: org.freedesktop.Platform
 runtime-version: '26.08'
 sdk: org.freedesktop.Sdk
-
 command: nemesis
 separate-locales: false
-
 finish-args:
   - --share=network
   - --share=ipc
